@@ -8,7 +8,7 @@ public class Main {
 		
 		Execute ex= new Execute();
 		Scanner sc=new Scanner(System.in);
-		while(true) {
+	
 		System.out.println("Select Operation:\n1.createAccount\n2.showAccount"
 				+ "\n3.depositMoney\n4.balanceCheck\n5.withdrawMoney\n6.TranferMoney");
 		int choice=sc.nextInt();
@@ -39,6 +39,6 @@ public class Main {
 		}
 
 	}
-	}
+	
 
 }
