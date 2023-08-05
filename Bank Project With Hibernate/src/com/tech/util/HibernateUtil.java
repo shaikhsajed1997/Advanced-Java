@@ -26,7 +26,7 @@ public class HibernateUtil {
 		set.put(Environment.PASS, "root");
 		
 		set.put(Environment.HBM2DDL_AUTO, "update");
-		//set.put(Environment.SHOW_SQL, "true");
+		set.put(Environment.SHOW_SQL, "true");
 		set.put(Environment.DIALECT, "org.hibernate.dialect.MySQL55Dialect");
 		
 		rgs=new StandardServiceRegistryBuilder().applySettings(set).build();
